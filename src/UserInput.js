@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class UserInput {
+class UserInput extends React.Component {
   
 
   render() {

@@ -1,15 +1,18 @@
 import React from 'react';
 
 class UserOutput extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
 
   render() {
     return (
-      <p></p>
-      <p></p>
+      <div>
+        <span>{this.props.userName}</span>
+        <p>This is paragraph 1.</p>
+        <p>This is paragraph 2.</p>
+      </div>
     );
   }
 }
