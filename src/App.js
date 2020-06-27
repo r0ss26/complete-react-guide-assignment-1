@@ -3,9 +3,8 @@ import UserOutput from './UserOutput';
 import UserInput from './UserInput';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = { userName: 'Shanti' };
+  state = {
+    userName: 'Shanti'
   }
 
   handleUsernameChange(event) {
